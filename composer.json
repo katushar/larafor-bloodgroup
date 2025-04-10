@@ -3,6 +3,12 @@
     "description": "Blood group management for Laravel apps",
     "type": "package",
     "license": "MIT",
+        "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/katushar/larafor-bloodgroup.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Larafor\\Bloodgroup\\": "src/",
@@ -22,7 +28,7 @@
             "email": "katushar96@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "laravel/framework": "^8.0"
