@@ -3,7 +3,7 @@
     "description": "Blood group management for Laravel apps",
     "type": "package",
     "license": "MIT",
-        "repositories": [
+    "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/katushar/larafor-bloodgroup.git"
@@ -28,12 +28,11 @@
             "email": "katushar96@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",  // Set to dev for development versions
     "prefer-stable": true,
     "require": {
         "laravel/framework": "^8.0"
     },
-    "version": "v1.0.1",
     "scripts": {
         "post-install-cmd": [
             "php artisan vendor:publish --tag=bloodgroup-config"
