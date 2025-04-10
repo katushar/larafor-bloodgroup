@@ -28,6 +28,14 @@ php artisan vendor:publish --provider="Larafor\Bloodgroup\BloodGroupServiceProvi
 
 This will create a `config/bloodgroup.php` file in your application, where you can customize the settings.
 
+## Add id in outher table
+
+```
+php artisan bloodgroup:create-migration table
+```
+
+> expl: php artisan bloodgroup:create-migration users
+
 ## Database Migration
 
 To create the necessary database table for blood groups, run the following command:
