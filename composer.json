@@ -16,7 +16,7 @@
     "autoload": {
         "psr-4": {
             "Larafor\\Bloodgroup\\": "src/",
-            "Larafor\\Bloodgroup\\Models\\": "src/Models/"
+            "Larafor\\Bloodgroup\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "extra": {
