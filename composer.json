@@ -1,0 +1,27 @@
+{
+    "name": "larafor/bloodgroup",
+    "description": "Blood group management for Laravel apps",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Larafor\\Bloodgroup\\": "src/",
+            "Larafor\\Bloodgroup\\Models\\": "src/Models/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larafor\\Bloodgroup\\BloodGroupServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "KAWSAR AHMED Tushar",
+            "email": "katushar96@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
