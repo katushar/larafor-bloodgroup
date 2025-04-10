@@ -23,5 +23,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "laravel/framework": "^8.0"
+    },
+    "version": "1.0.0",
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish --tag=bloodgroup-config"
+        ]
+    }
 }
