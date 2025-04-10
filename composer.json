@@ -23,7 +23,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
     "require": {
         "laravel/framework": "^8.0"
     },
