@@ -5,6 +5,10 @@
     "license": "MIT",
     "repositories": [
         {
+            "type": "composer",
+            "url": "https://packagist.org/packages/larafor/bloodgroup"
+        },
+        {
             "type": "vcs",
             "url": "https://github.com/katushar/larafor-bloodgroup.git"
         }
